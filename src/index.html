@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-with,initial-scale=1.0">
+    <title>Yapılacaklar Listesi</title> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css"> 
+</head>
+<body>
+    <header class="header">
+        <h1 class="main-title">
+            Yapılacaklar Listesi
+        </h1>
+    </header>
+
+    <form class="task-form" action="#">
+        <input type="text" class="form-item input-task" placeholder="Notu Giriniz">
+        <button class="form-item btn-task-add" type="submit">
+            <i class="fa-solid fa-square-plus"></i>
+        </button>
+    </form>
+
+    <div class="task-container">
+        <ul class="task-list">
+            
+        </ul>
+    </div>
+    <script src="../js/todoList.js"></script>
+</body>
+</html>
